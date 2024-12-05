@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*<-- header Init -->*/
+.header{
+    width: 100%;
+    background-color: rgb(255, 182, 193); /* Rosado claro */
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .navegacion a{
+    color: rgb(54, 54, 54); /* Gris oscuro para mejor visibilidad */
+    text-decoration: none;
+    padding-left: 100px ;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.navegacion a:hover{
+    color: rgb(115, 115, 170); /* Azul lavanda */
+}
+/*<-- header End -->*/
+
+/*<-- Hero Init -->*/
+.hero {
+    background-image: url(../img/id4d_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: rgb(33, 33, 33); /* Negro suave */
+    text-align: center;
+    padding: 20px 0;
+}
+.padre {
+    position: relative;
+}
+.row {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: rgb(54, 54, 54); /* Gris oscuro */
+}
+.Boton {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: rgb(255, 223, 186); /* Amarillo pastel */
+    color: rgb(54, 54, 54); /* Gris oscuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Boton:hover {
+    background-color: rgb(255, 239, 213); /* Amarillo más claro */
+}
+/*<-- Hero End -->*/
+
+/*<-- Imágenes Init -->*/
+.imagenes .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ajusta para pantallas más pequeñas */
+    margin-top: 20px;
+}
+.imagenes .col {
+    width: 48%; /* Mantiene un tamaño uniforme */
+    text-align: center;
+}
+.imagenes img {
+    width: 100%; /* Ajusta al contenedor */
+    max-width: 300px; /* Tamaño máximo de las imágenes */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras ligeras */
+}
+.imagenes div b {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(54, 54, 54); /* Gris oscuro */
+}
+/*<-- Imágenes End -->*/
+
+/*<-- Contenido Init -->*/
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Para dispositivos más pequeños */
+}
+.column h2 {
+    margin-top: 0;
+    font-family: 'Roboto';
+    color: rgb(54, 54, 54); /* Gris oscuro */
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    color: rgb(54, 54, 54); /* Gris oscuro */
+}
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(200, 200, 200); /* Gris claro */
+    border-radius: 5px;
+}
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: rgb(255, 223, 186); /* Amarillo pastel */
+    color: rgb(54, 54, 54); /* Gris oscuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(255, 239, 213); /* Amarillo más claro */
+}
+/*<-- Contenido End -->*/
+
+.separador {
+    width: 90%;
+    margin: 40px auto;
+    border-top: 2px solid rgba(200, 200, 200, 0.5); /* Gris claro translúcido */
+    border-radius: 5px; 
+}
+
+/* Redes sociales */
+.contacto a {
+    font-family: 'Roboto';
+    color: rgb(54, 54, 54); /* Gris oscuro */
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0;
+}
+.contacto a img {
+    margin-right: 10px; 
+}
+
+.quienes-somos h2 {
+    font-family: 'Roboto';
+    background-color: rgb(255, 182, 193); /* Rosado claro */
+    color: rgb(54, 54, 54); /* Gris oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*<-- General-->*/
+h1, h2, p, b, ul {
+    font-family: 'Roboto';
+    color: rgb(54, 54, 54); /* Gris oscuro para todas las fuentes */
+}
